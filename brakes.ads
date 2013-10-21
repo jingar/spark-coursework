@@ -15,8 +15,8 @@
 --                      with the ATP controller.
 
 package Brakes
-   --# own State;
-   --# initializes State;
+  --# own State;
+  --# initializes State;
 is
    procedure Activate;
    --# global out State;

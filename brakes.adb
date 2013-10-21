@@ -1,25 +1,24 @@
-package body Brake
-  --# own State is BrakeStatus;
+package body Brakes
 is
-   BrakeStatus: Boolean;
-
+   State: Boolean;
    procedure Activate
-     --# global out BrakeStatus;
-     --# derives BrakeStatus from ;
    is
    begin
-      BrakeStatus:= True;
+      State:= True;
    end Activate;
 
-   procedure Deactivate;
-     --# global out BrakeStatus;
-     --# derives BrakeStatus from ;
+   procedure Deactivate
    is 
    begin
-      BrakeStatus:= False;
+      State:= False;
    end Deactivate;
 
-   function Activated return Boolean;
-   --# global in State;
-   
-end Brake;
+   function Activated return Boolean
+   is
+   begin
+      return State;
+   end Activated; 
+     
+begin
+     State:= True;
+end Brakes;

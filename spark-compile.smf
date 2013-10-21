@@ -1,0 +1,17 @@
+
+console.ads -l = package_console.ads.lst
+console.adb -l = package_console.adb.lst
+
+sensors.ads -l = package_sensors.ads.lst
+sensors.adb -l = package_sensors.adb.lst
+
+alarm.ads -l = package_alarm.ads.lst
+alarm.adb -l = package_console.adb.lst
+
+brakes.ads -l = package_brakes.ads.lst
+brakes.adb -l = package_brakes.adb.lst
+
+speedo.ads -l = package_speedo.ads.lst
+speedo.adb -l = package_speedo.adb.lst
+
+atp.ads -l = package_atp.ads.lst
