@@ -19,8 +19,8 @@ package  Console
   --# own Reset_Status, SPAD_Cnt;
   --# initializes Reset_Status, SPAD_Cnt;
 is
---   Reset_Status: Boolean:= False;
---   SPAD_Cnt: Integer:= 0;
+   --   Reset_Status: Boolean:= False;
+   --   SPAD_Cnt: Integer:= 0;
    
    procedure Enable_Reset;
       --# global out Reset_Status;

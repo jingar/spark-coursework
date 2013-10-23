@@ -15,3 +15,4 @@ speedo.ads -l = package_speedo.ads.lst
 speedo.adb -l = package_speedo.adb.lst
 
 atp.ads -l = package_atp.ads.lst
+atp.adb -l = package_atp.adb.lst
