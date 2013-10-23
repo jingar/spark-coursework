@@ -1,7 +1,7 @@
 package body Console
-is
-   Reset_Status: Boolean:= False;
-   SPAD_Cnt: Integer:= 0;
+is 
+   Reset_Status: Boolean;
+   SPAD_Cnt: Integer;
    
    procedure Enable_Reset
    is
@@ -12,7 +12,7 @@ is
    procedure Disable_Reset
    is 
    begin
-      Reset_Status:= True;
+      Reset_Status:= False;
    end Disable_Reset;
    
    function Reset_Enabled return Boolean
@@ -38,5 +38,9 @@ is
    begin
       return SPAD_Cnt;
    end SPAD_Cnt_Value;
+   
+begin
+   Reset_Status:= False;
+   SPAD_Cnt:= 0;
 end Console;
 

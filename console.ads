@@ -38,8 +38,8 @@ is
      --# derives SPAD_Cnt from SPAD_Cnt;
    
    procedure Reset_SPAD_Cnt;
-      --# global out SPAD_Cnt;
-      --# derives SPAD_Cnt from ;
+   --# global out SPAD_Cnt;
+   --# derives SPAD_Cnt from ;
    
    function SPAD_Cnt_Value return Integer;
    --# global in SPAD_Cnt;  
