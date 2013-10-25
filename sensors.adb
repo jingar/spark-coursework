@@ -36,8 +36,10 @@ is
 	 Majority:= Sensor_1;
       elsif Sensor_1 = Sensor_3 then
 	   Majority:= Sensor_1;
+      elsif Sensor_2 = Sensor_3 then
+	 Majority:= Sensor_2;
       else
-	     Majority:= Sensor_3;
+	 Majority:= Undef;
       end if;
       return Majority;
    end Read_Sensor_Majority;
