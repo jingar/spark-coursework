@@ -1,0 +1,197 @@
+           *******************************************************
+                         Report of SPARK Examination
+                              Examiner GPL 2012
+             Copyright (C) 2012 Altran Praxis Limited, Bath, U.K.
+           *******************************************************
+
+
+                        DATE : 23-OCT-2013 20:03:43.48
+
+Options:
+    noswitch
+    noindex_file
+    nowarning_file
+    notarget_compiler_data
+    noconfig_file
+    source_extension=ada
+    listing_extension=lst
+    nodictionary_file
+    report_file=spark.rep
+    nohtml
+    nostatistics
+    fdl_identifiers=accept
+    flow_analysis=auto
+    language=95
+    profile=sequential
+    annotation_character=#
+    rules=lazy
+    error_explanations=off
+    justification_option=full
+    output_directory=.
+    output_directory (actual)=/home/cs4/sa521/rigorous-methods/coursework/
+
+Selected files:
+   @spark-compile.smf
+
+
+No Index files were used
+
+
+Meta File(s) used were:
+   spark-compile.smf
+      /home/cs4/sa521/rigorous-methods/coursework/console.ads
+      /home/cs4/sa521/rigorous-methods/coursework/console.adb
+      /home/cs4/sa521/rigorous-methods/coursework/sensors.ads
+      /home/cs4/sa521/rigorous-methods/coursework/sensors.adb
+      /home/cs4/sa521/rigorous-methods/coursework/alarm.ads
+      /home/cs4/sa521/rigorous-methods/coursework/alarm.adb
+      /home/cs4/sa521/rigorous-methods/coursework/brakes.ads
+      /home/cs4/sa521/rigorous-methods/coursework/brakes.adb
+      /home/cs4/sa521/rigorous-methods/coursework/speedo.ads
+      /home/cs4/sa521/rigorous-methods/coursework/speedo.adb
+      /home/cs4/sa521/rigorous-methods/coursework/atp.ads
+      /home/cs4/sa521/rigorous-methods/coursework/atp.adb
+
+
+Full warning reporting selected
+
+
+Source Filename(s) used were:
+   /home/cs4/sa521/rigorous-methods/coursework/console.ads
+   /home/cs4/sa521/rigorous-methods/coursework/console.adb
+   /home/cs4/sa521/rigorous-methods/coursework/sensors.ads
+   /home/cs4/sa521/rigorous-methods/coursework/sensors.adb
+   /home/cs4/sa521/rigorous-methods/coursework/alarm.ads
+   /home/cs4/sa521/rigorous-methods/coursework/alarm.adb
+   /home/cs4/sa521/rigorous-methods/coursework/brakes.ads
+   /home/cs4/sa521/rigorous-methods/coursework/brakes.adb
+   /home/cs4/sa521/rigorous-methods/coursework/speedo.ads
+   /home/cs4/sa521/rigorous-methods/coursework/speedo.adb
+   /home/cs4/sa521/rigorous-methods/coursework/atp.ads
+   /home/cs4/sa521/rigorous-methods/coursework/atp.adb
+
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/console.ads
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_console.ads.lst
+
+   Unit name:  Console
+   Unit type:  package specification
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/console.adb
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_console.adb.lst
+
+   Unit name:  Console
+   Unit type:  package body
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/sensors.ads
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_sensors.ads.lst
+
+   Unit name:  Sensors
+   Unit type:  package specification
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/sensors.adb
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_sensors.adb.lst
+
+   Unit name:  Sensors
+   Unit type:  package body
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/alarm.ads
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_alarm.ads.lst
+
+   Unit name:  Alarm
+   Unit type:  package specification
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/alarm.adb
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_console.adb.lst
+
+   Unit name:  Alarm
+   Unit type:  package body
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/brakes.ads
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_brakes.ads.lst
+
+   Unit name:  Brakes
+   Unit type:  package specification
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/brakes.adb
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_brakes.adb.lst
+
+   Unit name:  Brakes
+   Unit type:  package body
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/speedo.ads
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_speedo.ads.lst
+
+   Unit name:  Speedo
+   Unit type:  package specification
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/speedo.adb
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_speedo.adb.lst
+
+   Unit name:  Speedo
+   Unit type:  package body
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/atp.ads
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_atp.ads.lst
+
+   Unit name:  ATP
+   Unit type:  package specification
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/sa521/rigorous-methods/coursework/atp.adb
+Listing Filename:  /home/cs4/sa521/rigorous-methods/coursework/package_atp.adb.lst
+
+   Unit name:  ATP
+   Unit type:  package body
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+Note: Automatic flow analysis mode selected
+
+
+--End of file--------------------------------------------------

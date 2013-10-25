@@ -1,3 +1,8 @@
 # Ignore all emacs backup files
 *~
 \#*#
+*.o
+*.lst
+*.ali
+*.sli
+*.dat
