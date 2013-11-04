@@ -28,9 +28,7 @@ is
    procedure Control;
    --# global in Sensors.State, Speedo.Speed, Console.Reset_Status;
    --# in out Console.SPAD_Cnt, Alarm.State, Brakes.State, Previous_Speed;
-   --# in out Previous_Majority;
-   
-   
+   --# in out Previous_Majority;  
 end ATP;
 
 

@@ -1,0 +1,4 @@
+Assumption 1 -  In the specification no requirments are given regarding the undefined value. Therefore a high safefty approach is taken. The assumption is undefined values will be rare and therefore on the occasions it does occur it should be taken very seriously.
+	   If an undefined value it is considered at the same level as danger.
+
+Assumption 2 -

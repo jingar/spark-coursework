@@ -28,14 +28,14 @@ is
    end Read_Sensor;
    
    function Read_Sensor_Majority return Sensor_Type
-   --# global in Sensor_1,Sensor_2,Sensor_3;
+     --# global in Sensor_1,Sensor_2,Sensor_3;
    is
-     Majority: Sensor_Type;
+      Majority: Sensor_Type;
    begin
       if Sensor_1 = Sensor_2 then
 	 Majority:= Sensor_1;
       elsif Sensor_1 = Sensor_3 then
-	   Majority:= Sensor_1;
+	 Majority:= Sensor_1;
       elsif Sensor_2 = Sensor_3 then
 	 Majority:= Sensor_2;
       else

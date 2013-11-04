@@ -1,0 +1,14 @@
+﻿Rigorous Methods for Software Engineering(F21RS) – Report 
+  
+Few assumptions were during the development of the Automatic Transport Control system. Firstly the specification did not specify in requirements what action(s) are to be taken by the controller, should an undefined value be returned by the sensors. As this is simulation for a critical system, a safety first approach is taken. The assumption made is with regard to sensor accuracy, I am assuming undefined values will be rare due to high sensor accuracy. An other assumption made is that the sensors are the most likely culprits in erroneous sensor data. Based on these assumptions a two step process is take in order to deal with undefined values.
+
+1.  Firstly the ATP package keeps track of the previous majority value chosen among the sensors. If the current majority value is undefined then the alarm is activated to alert the driver, as there maybe an issue.
+
+2. If an undefined majority value is chosen again i.e. twice in a row, the brakes are activated.
+
+
+The the two step approach takes into account the safety aspect of the system by first alerting the driver that the system cannot make a good decision and it is up to the driver to make the final decision. Secondly if there is a problem with the sensors the second undefined value is more likely and thus has been taken into account by the second step.
+
+
+
+
