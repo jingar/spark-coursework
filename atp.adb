@@ -1,4 +1,4 @@
-with Console, Sensors, Alarm, Bpprakes, Speedo;
+with Console, Sensors, Alarm, Brakes, Speedo;
 use type Sensors.Sensor_Type;
 package body ATP
 is
